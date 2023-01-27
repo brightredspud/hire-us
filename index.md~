@@ -1,9 +1,0 @@
----
-layout: default
----
-
-We were recently [laid off](https://www.cbc.ca/news/canada/edmonton/alphabet-closing-edmonton-deepmind-office-1.6724645) and would like jobs. If you are interested in hiring a team of experienced machine learning/reinforcement learning researchers/engineers, please reach out to us.
-
-{% for person in site.people %}
-    <h1>{{ people.title }}</h1>
-{% endfor %}
