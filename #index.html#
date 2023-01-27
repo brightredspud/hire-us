@@ -1,0 +1,13 @@
+---
+layout: default
+---
+
+We were recently <a href="https://www.cbc.ca/news/canada/edmonton/alphabet-closing-edmonton-deepmind-office-1.6724645"> laid off </a> and would like jobs. If you are interested in hiring a team of experienced machine learning/reinforcement learning researchers/engineers, please reach out to us.
+
+{% for person in site.people %}
+   <p>
+   <h1> <a href="{{ person.url }} {{ person.name }} </h1>
+   <h2> {{ person.title }} </h2>
+   <h3> {{ person.email }} </h3>
+   {{ person.content | markdownify }}
+{% endfor %}
