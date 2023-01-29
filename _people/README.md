@@ -3,8 +3,19 @@
 1. Fork this repo into your own repo by clicking "fork" at the top of the screen.
 2. Copy [_people/finbarr.md](https://github.com/finbarrtimbers/hire-us/blob/main/_people/finbarr.md) into your own file: $FIRST_NAME.md.
 3. Edit the information to reflect your info.
+4. (Optional) Add a resume to `assets/resumes/`
 
-If you prefer, send me an [email](mailto:finbarrtimbers@gmail.com) and I'll do this for you.
+If you prefer, send me an [email](mailto:finbarrtimbers@gmail.com) and I'll do this for you. Include the following info:
+
+1. Preferred name
+2. Job title
+3. A one sentence bio
+4. A longer bio
+5. (optional) Linkedin
+6. (optional) CV
+7. (optional) Picture
+
+I haven't added support for pictures/CVs/Linkedin profiles yet, but I plan to.
 
 ## Documentation
 
