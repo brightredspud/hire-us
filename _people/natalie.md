@@ -5,6 +5,8 @@ title: Office Manager / Administrative Professional
 email: natalie.m.gonzola at gmail
 bio: Seamlessly manages office operations while ensuring quality company culture and facilitating fun.
 linkedin: https://www.linkedin.com/in/natalie-gonzola/
+picture: /assets/pictures/natalie.png
+resume: /assets/resumes/natalie.pdf 
 ---
 
 I was the office manager for the DeepMind Alberta office for 5 years.

@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-OB<html lang="{{ site.lang | default: "en-US" }}">
+<html lang="{{ site.lang | default: "en-US" }}">
   <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -17,10 +17,8 @@ OB<html lang="{{ site.lang | default: "en-US" }}">
       <header>
         <h1><a href="{{ "/" | absolute_url }}">{{ site.title | default: site.github.repository_name }}</a></h1>
 
-        {% if page.picture %}
-          <img src="{{ page.picture | relative_url }}" alt="Picture" />
-        {% elsif site.logo %}
-          <img src="{{ site.logo | relative_url }}" alt="Logo" />
+        {% if site.logo %}
+          <img src="{{site.logo | relative_url}}" alt="Logo" />
         {% endif %}
 
         <p>{{ site.description | default: site.github.project_tagline }}</p>
@@ -35,22 +33,7 @@ OB<html lang="{{ site.lang | default: "en-US" }}">
       </header>
       <section>
 
-	<h1> {{ page.name }} </h1>
-	<h2> {{ page.title }} </h2>
-	<h3> {{ page.email }} </h3>
-	<h3>
-	    {% if page.linkedin and page.resume %}
-	    <a href="{{ page.linkedin }}">Linkedin </a>
-	    |
-	    <a href="{{ site.baseurl}}{{ page.resume }}"> Resume </a>
-	    {% elsif page.linkedin %}
-	    <a href="{{ page.linkedin }}">Linkedin </a>
-	    {% elsif page.resume %}
-	    <a href="{{ site.baseurl}}{{ page.resume }}"> Resume </a>
-	    {% endif %}
-	</h3>
-
-	{{ content | markdownify }}
+      {{ content }}
 
       </section>
       <footer>
@@ -63,4 +46,3 @@ OB<html lang="{{ site.lang | default: "en-US" }}">
     <script src="{{ "/assets/js/scale.fix.js" | relative_url }}"></script>
   </body>
 </html>
-
