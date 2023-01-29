@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="{{ site.lang | default: "en-US" }}">
+OB<html lang="{{ site.lang | default: "en-US" }}">
   <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -38,6 +38,17 @@
 	<h1> {{ page.name }} </h1>
 	<h2> {{ page.title }} </h2>
 	<h3> {{ page.email }} </h3>
+	<h3>
+	    {% if page.linkedin and page.resume %}
+	    <a href="{{ page.linkedin }}">Linkedin </a>
+	    |
+	    <a href="{{ site.baseurl}}{{ page.resume }}"> Resume </a>
+	    {% elsif page.linkedin %}
+	    <a href="{{ page.linkedin }}">Linkedin </a>
+	    {% elsif page.resume %}
+	    <a href="{{ site.baseurl}}{{ page.resume }}"> Resume </a>
+	    {% endif %}
+	</h3>
 
 	{{ content | markdownify }}
 
