@@ -4,9 +4,9 @@ name: Neil Burch
 title: Senior Research Scientist
 email: neil.burch at gmail
 bio: I have been a Senior Research Scientist at DeepMind for five years, using game theory, online learning and search to make agents for complex, multiagent environments.
-picture: /assets/pictures/finbarr.jpeg
-linkedin: https://www.linkedin.com/in/finbarrtimbers/
-resume: /assets/resumes/finbarr.pdf
+picture: /assets/pictures/neil.jpeg
+linkedin: 
+resume: /assets/resumes/neil.pdf
 ---
 
 I have been a Senior Research scientist at DeepMind for five years, using game theory, online learning and search to make agents for complex, multiagent environments.
